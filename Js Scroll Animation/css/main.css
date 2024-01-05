@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+.space {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.heading {
+  font-size: 50px;
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.product {
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: rgb(217, 217, 217) 0px 0px 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+  flex: 1;
+  color: rgb(57, 57, 57);
+}
+.product-desc {
+  font-size: 15px;
+  flex: 3;
+}
+.product-button {
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+/* /////////////////// FadeUP Animation //////////////////////// */
+.fade-up {
+  transform: translateY(50px);
+  opacity: 0;
+  scale: 0.9;
+  transition: 0.5s ease-out;
+}
+.fade-up-scrolled {
+  transform: translateY(0px);
+  opacity: 1;
+  scale: 1;
+}
