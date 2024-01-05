@@ -20,7 +20,7 @@ Welcome to the repository for the source code accompanying my blogs. Each blog p
 
 ## Blogs
 
-- [Scroll Reveal Animation](blog-1/) - A full tutorial on creating scroll reveal effect for website with vanilla javascript
+- [Scroll Reveal Animation](Js-Scroll-Animation/) - A full tutorial on creating scroll reveal effect for website with vanilla javascript
 - ...
 
 ## Author
