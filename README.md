@@ -7,7 +7,7 @@ Welcome to the repository for the source code accompanying my blogs. Each blog p
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/blog-source-code.git
+    git clone https://github.com/Subu19/Blog.git
     ```
 
 2. Navigate to the specific blog's folder:
